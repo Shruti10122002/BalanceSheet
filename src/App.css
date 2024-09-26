@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+  background-color: #e0f7fa; /* Light Sky Blue */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+  background-color: #00bcd4; /* Sky Blue */
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Balance Display */
+.balance {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  color: #0288d1; /* Darker Sky Blue */
+  font-weight: bold;
+}
+
+/* Form Styles */
+form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #00acc1; /* Medium Sky Blue */
+}
+
+button {
+  padding: 10px;
+  background-color: #0288d1; /* Darker Sky Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5caad3; /* Slightly Darker Sky Blue */
+}
+
+/* Transaction List Styles */
+.transaction-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transaction-list li {
+  background-color: #1b9bd7; /* Light Sky Blue Background */
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.transaction-list li span {
+  color: #0288d1; /* Darker Sky Blue */
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
